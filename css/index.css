@@ -1,0 +1,26 @@
+/*次CSS为控制主页的样式表*/
+/*清零操作*/
+body {
+	padding: 0;
+	margin: 0;
+}
+/*设置背景图*/
+body {
+	background: url(../images/bgimg.png);
+	width: 1050px;
+	height: 2000px;
+	border: 0px solid yellow;
+	margin: 0 auto;
+}
+
+/*顶部图片以及说明部分*/
+#top_pic {
+	width: 1050px;
+	height: 200px;
+	margin-top: 50px;
+	border-radius: 5px ;
+	background: url(../images/topPic.jpg);
+	overflow: hidden;
+}
+
+/*导航栏部分*/
