@@ -23,4 +23,75 @@ body {
 	overflow: hidden;
 }
 
+#domain {
+	width: 300px;
+	height: 80px;
+	position: relative;
+	top: 70px;
+	left: 30px;
+}
+#sign {
+	position: absolute;
+	border-radius: 9px;
+	overflow: hidden;
+}
+#link {
+	width: 220px;
+	height: 80px;
+	position: absolute;
+	left: 80px;
+	padding-left: 10px;
+}
+#saner {
+	height: 50px;
+	line-height: 50px;
+	font-size: 30px;
+	font-family: "华文行楷"；
+
+}
+#myDomain {
+	height: 30px;
+}
+#link a {
+	color: white;
+	font-size: 20px;
+	text-decoration: none ;
+}
+#link a:hover {
+	color: #A2A2A2;
+	text-decoration: underline;
+}
 /*导航栏部分*/
+.nav {
+	width: 1050px;
+	height: 60px;
+	margin-top: 20px;
+	padding: 0;
+	color: white;
+	position: relative;
+}
+.nav a,.nav a:hover {
+	color: white;
+	text-decoration: none;
+}
+.s-mod-item {
+	width: 131px;
+	height: 60px;
+	list-style: none;
+	float: left;
+	box-sizing:border-box;
+	position: relative;
+}
+.s-mod-wrap {
+	width: 131px;
+	height: 60px;
+	position: relative;
+	overflow: hidden;
+}
+.s-mod-wrap div {
+	width: 131px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	position: relative;
+}
