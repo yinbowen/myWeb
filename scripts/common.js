@@ -74,4 +74,15 @@ $(function() {
 			}, 200);
 		}
 	);
+	//音乐播放器部分
+	$('#music').mPlayer({
+		'music/music01.mp3': '藏传大悲咒',
+        'music/music01.ogg': '',
+        'music/music02.mp3': '让爱传出去',
+        'music/music02.ogg': '',
+        'music/music03.mp3': '让世界充满爱',
+        'music/music03.ogg': '',
+        'music/music04.mp3': '绿--丁桥',
+        'music/music04.ogg': ''
+    });
 })

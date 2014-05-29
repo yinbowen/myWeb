@@ -173,3 +173,12 @@ background-attachment:fixed;
 #goTopDiv:hover {
 	background:#1CA1E2 url(../images/up.png);
 }
+
+/*音乐播放器部分*/
+#music {
+	position: absolute;
+	top: 55px;
+	right: 120px;
+	color: white;
+	text-align: center;
+}
