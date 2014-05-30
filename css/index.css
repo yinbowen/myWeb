@@ -11,6 +11,7 @@ body {
 	height: 2000px;
 	border: 0px solid yellow;
 	margin: 0 auto;
+	position: relative;
 }
 
 /*顶部图片以及说明部分*/
@@ -21,6 +22,7 @@ body {
 	border-radius: 5px ;
 	background: url(../images/topPic.jpg);
 	overflow: hidden;
+	position: relative;
 }
 
 #domain {
@@ -178,8 +180,8 @@ background-attachment:fixed;
 /*音乐播放器部分*/
 #music {
 	position: absolute;
-	top: 55px;
-	right: 120px;
+	top: 10px;
+	right: 20px;
 	color: white;
 	text-align: center;
 }
@@ -278,6 +280,50 @@ background-attachment:fixed;
 }
 #homeBlog001 {
 	height: 450px;
-
 	
+}
+
+/*主页右侧部分*/
+#homeRight {
+	width: 250px;
+	height: 1000px;
+	background: #272933;
+	position: absolute;
+	right: 0px;
+	top: 300px;
+}
+#microBlog {
+	position: absolute;
+	left:5px;
+	top: 5px;
+}
+#weChat {
+	width: 238px;
+	height: 275px;
+	border: 1px solid #848484;
+	background: #434343;
+	position: absolute;
+	top: 540px;
+	left: 5px;
+}
+#weChatPic {
+	width: 200px;
+	height: 200px;
+	border-radius: 5px;
+	overflow: hidden;
+	background: pink;
+	position: absolute;
+	top: 19px;
+	left: 19px;
+}
+#weChatDesc {
+	width: 200px;
+	height: 30px;
+	position: absolute;
+	top: 225px;
+	left: 19px;
+	text-align: center;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	color: #888e7e;
 }
