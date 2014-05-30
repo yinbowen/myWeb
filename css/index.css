@@ -228,7 +228,7 @@ background-attachment:fixed;
 	-o-transition:color 0.7s ease;	
 }
 .title a:hover {
-	color:red;
+	color:#d7003a;
 }
 .blogTag {
 	width: 710px;
@@ -286,7 +286,7 @@ background-attachment:fixed;
 /*主页右侧部分*/
 #homeRight {
 	width: 250px;
-	height: 1000px;
+	height: 1500px;
 	background: #272933;
 	position: absolute;
 	right: 0px;
@@ -299,7 +299,7 @@ background-attachment:fixed;
 }
 #weChat {
 	width: 238px;
-	height: 275px;
+	height: 265px;
 	border: 1px solid #848484;
 	background: #434343;
 	position: absolute;
@@ -325,5 +325,42 @@ background-attachment:fixed;
 	text-align: center;
 	line-height: 30px;
 	font-family: "微软雅黑";
-	color: #888e7e;
+	color: #c0a2c7;
+}
+#homeLinks {
+	width: 238px;
+	height: 365px;
+	border: 1px solid #848484;
+	background: #434343;
+	position: absolute;
+	top: 813px;
+	left: 5px;
+}
+#homeLinkTitle {
+	width: 238px;
+	height:30px;
+	text-align: center;
+	line-height: 30px;
+	color: #f8f4e6;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	border-bottom: 1px outset #d3cbc6;
+	letter-spacing: 5px;
+}
+#links li {
+	list-style: none;
+}
+#links a {
+	color: #c0a2c7;
+	text-decoration: none;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	line-height: 25px;
+    -webkit-transition:color 0.7s ease;
+	-ms-transition:color 0.7s ease;	
+	-moz-transition:color 0.7s ease;	
+	-o-transition:color 0.7s ease;
+}
+#links a:hover {
+	color: #FF0080;
 }
