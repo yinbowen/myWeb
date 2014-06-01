@@ -1,0 +1,366 @@
+/*此CSS博文页面的样式表*/
+/*清零操作*/
+body {
+	padding: 0;
+	margin: 0;
+}
+/*设置背景图*/
+body {
+	background: url(../images/bgimg.png);
+	width: 1050px;
+	border: 0px solid yellow;
+	margin: 0 auto;
+	position: relative;
+}
+
+/*顶部图片以及说明部分*/
+#top_pic {
+	width: 1050px;
+	height: 200px;
+	margin-top: 50px;
+	border-radius: 5px ;
+	background: url(../images/topPic.jpg);
+	overflow: hidden;
+	position: relative;
+}
+
+#domain {
+	width: 300px;
+	height: 80px;
+	position: relative;
+	top: 70px;
+	left: 30px;
+}
+#sign {
+	position: absolute;
+	border-radius: 9px;
+	overflow: hidden;
+}
+#link {
+	width: 220px;
+	height: 80px;
+	position: absolute;
+	left: 80px;
+	padding-left: 10px;
+}
+#saner {
+	height: 50px;
+	line-height: 50px;
+	font-size: 30px;
+	font-family: "华文行楷"；
+
+}
+#myDomain {
+	height: 30px;
+}
+#link a {
+	color: white;
+	font-size: 20px;
+	text-decoration: none ;
+}
+#link a:hover {
+	color: #A2A2A2;
+	text-decoration: underline;
+}
+/*导航栏部分*/
+.nav {
+	width: 1050px;
+	height: 60px;
+	margin-top: 20px;
+	padding: 0;
+	color: white;
+	position: relative;
+}
+.nav a,.nav a:hover {
+	color: white;
+	text-decoration: none;
+}
+.s-mod-item {
+	width: 131px;
+	height: 60px;
+	list-style: none;
+	float: left;
+	box-sizing:border-box;
+	position: relative;
+}
+.s-mod-wrap {
+	width: 131px;
+	height: 60px;
+	position: relative;
+	overflow: hidden;
+}
+.s-mod-wrap div {
+	width: 131px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	position: relative;
+}
+/*当页面滚动至原来的导航栏消失是从顶部弹出新导航栏*/
+ul#navigation {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    right: 10px;
+    list-style: none;
+    z-index:9999;
+    width:824px;
+}
+ul#navigation li {
+    width: 103px;
+    display:inline;
+    float:left; 
+    border-radius:0px 0px 10px 10px;   
+}
+ul#navigation li a {
+    display: block;
+    float:left;
+    margin-top: -2px;
+    width: 100px;
+    height: 25px;
+    background-color:#E7F2F9;
+    background-repeat:no-repeat;
+    background-position:50% 10px;
+    border:1px solid #BDDCEF;
+    border-radius:0px 0px 10px 10px;
+    -moz-border-radius:0px 0px 10px 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -khtml-border-bottom-right-radius: 10px;
+    -khtml-border-bottom-left-radius: 10px;
+    text-decoration:none;
+    text-align:center;
+    padding-top:80px;
+    opacity: 0.7;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);  
+}
+ul#navigation li a:hover{
+     background-color:#CAE3F2;
+}
+ul#navigation li a span{
+    letter-spacing:2px;
+    font-size:11px;
+    color:#60ACD8;
+    text-shadow: 0 -1px 1px #fff;      
+}
+ul#navigation .home a{
+    background-image: url(../images/home.png);
+}
+
+/*回到顶部部分*/
+#goTopDiv {
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	opacity:0.7;
+	filter:alpha(opacity=70);
+	-moz-opacity:0.7;
+	position: fixed;
+	_position:absolute; /*CSS_Hack解决IE6的兼容性问题*/
+	bottom: 30px;
+	right: 20px;
+	_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||20)-(parseInt(this.currentStyle.marginBottom,10)||20)));  
+	background:#cacaca url(../images/up.png);
+	 -moz-transition: background 1s;
+    -webkit-transition: background 1s;
+    -o-transition: background 1s;
+    -ms-transition: background 1s;
+    transition: background 1s;
+}
+*html{  /*解决IE6固定定位的闪动问题*/
+background-image:url(../images/bgimg.png);  
+background-attachment:fixed;  
+}  
+#goTopDiv:hover {
+	background:#1CA1E2 url(../images/up.png);
+}
+
+
+/*博文部分*/
+.newBlogWrap {
+	width: 780px;
+	background: green;
+	margin-top: 20px;
+	position: relative;
+}
+.blog {
+	width: 780px;
+	background-color: #272933;
+	position: relative;
+	border-top: 1px dotted #808080;
+    border-bottom: 1px dotted #808080;
+    height: 65px;
+}
+.authorPic {
+	width: 55px;
+	height: 55px;
+	background: url(../images/sanerPic.jpg);
+	position: relative;
+	border-radius: 4px;
+	top: 5px;
+	left: 5px;
+	-webkit-transition:box-shadow 0.7s ease;
+	-ms-transition:box-shadow 0.7s ease;	
+	-moz-transition:box-shadow 0.7s ease;	
+	-o-transition:box-shadow 0.7s ease;	
+}
+.authorPic:hover {
+	-moz-box-shadow: 0px 0px 8px 8px #2792c3; /* 老的 Firefox */
+    box-shadow: 0px 0px 8px 8px #2792c3;
+}
+.title {
+	width: 710px;
+	height: 35px;
+	position: relative;
+	top: -55px;
+	left: 70px
+}
+.title a{
+	color: white;
+	text-decoration: none;
+	line-height: 35px;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	-webkit-transition:color 0.7s ease;
+	-ms-transition:color 0.7s ease;	
+	-moz-transition:color 0.7s ease;	
+	-o-transition:color 0.7s ease;	
+}
+.title a:hover {
+	color:#d7003a;
+}
+.blogTag {
+	width: 710px;
+	height: 20px;
+	position: relative;
+	top: -55px;
+	left: 71px;
+	color: #666666;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: "微软雅黑";
+}
+.blogTag a {
+	color: #666666;
+	-webkit-transition:color 0.3s ease;
+	-ms-transition:color 0.3s ease;	
+	-moz-transition:color 0.3s ease;	
+	-o-transition:color 0.3s ease;	
+}
+.blogTag a:hover {
+	color: #FF0080;
+	text-decoration: none;
+} 
+#content {
+	width: 780px;
+	height: 1500px;
+	background:url(../images/blogContentBg.jpg);
+}
+/*右侧部分*/
+#homeRight {
+	width: 250px;
+	height: 1500px;
+	background: #272933;
+	position: absolute;
+	right: 0px;
+	top: 300px;
+}
+#microBlog {
+	position: absolute;
+	left:5px;
+	top: 5px;
+}
+#weChat {
+	width: 238px;
+	height: 265px;
+	border: 1px solid #848484;
+	background: #434343;
+	position: absolute;
+	top: 540px;
+	left: 5px;
+}
+#weChatPic {
+	width: 200px;
+	height: 200px;
+	border-radius: 5px;
+	overflow: hidden;
+	background: pink;
+	position: absolute;
+	top: 19px;
+	left: 19px;
+}
+#weChatDesc {
+	width: 200px;
+	height: 30px;
+	position: absolute;
+	top: 225px;
+	left: 19px;
+	text-align: center;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	color: #c0a2c7;
+}
+#homeLinks {
+	width: 238px;
+	height: 365px;
+	border: 1px solid #848484;
+	background: #434343;
+	position: absolute;
+	top: 813px;
+	left: 5px;
+}
+#homeLinkTitle {
+	width: 238px;
+	height:30px;
+	text-align: center;
+	line-height: 30px;
+	color: #f8f4e6;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	border-bottom: 1px outset #d3cbc6;
+	letter-spacing: 5px;
+}
+#links li {
+	list-style: none;
+}
+#links a {
+	color: #c0a2c7;
+	text-decoration: none;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	line-height: 25px;
+    -webkit-transition:color 0.7s ease;
+	-ms-transition:color 0.7s ease;	
+	-moz-transition:color 0.7s ease;	
+	-o-transition:color 0.7s ease;
+}
+#links a:hover {
+	color: #FF0080;
+}
+
+
+/*版权说明部分*/
+#copyright {
+	height: 40px;
+	margin-top: 15px;
+	background: #272933;
+	position: relative;
+	border-radius: 5px 5px 0 0;
+}
+#borderBottom {
+	width: 1050px;
+	height: 4px;
+	position: absolute;
+	top: 36px;
+	background: url(../images/copyBorder.png);
+}
+#copyDesc {
+	width: 400px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	position: absolute;
+	left: 325px;
+	color: #888e7e;
+}
