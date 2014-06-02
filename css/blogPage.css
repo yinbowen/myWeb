@@ -357,9 +357,14 @@ background-attachment:fixed;
 	-ms-transition:color 0.7s ease;	
 	-moz-transition:color 0.7s ease;	
 	-o-transition:color 0.7s ease;
+	-webkit-transition:text-shadow 0.7s ease;
+	-ms-transition:text-shadow 0.7s ease;	
+	-moz-transition:text-shadow 0.7s ease;	
+	-o-transition:text-shadow 0.7s ease;
 }
 #links a:hover {
 	color: #FF0080;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de;
 }
 
 
