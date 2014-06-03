@@ -254,7 +254,6 @@ background-attachment:fixed;
 } 
 #content {
 	width: 780px;
-	height: 1500px;
 	background:url(../images/blogContentBg.jpg);
 	position: relative;
 }
@@ -283,7 +282,7 @@ background-attachment:fixed;
 /*右侧部分*/
 #homeRight {
 	width: 250px;
-	height: 1500px;
+	height: 1188px;
 	background: #272933;
 	position: absolute;
 	right: 0px;

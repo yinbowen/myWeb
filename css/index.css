@@ -8,7 +8,6 @@ body {
 body {
 	background: url(../images/bgimg.png);
 	width: 1050px;
-	height: 2000px;
 	border: 0px solid yellow;
 	margin: 0 auto;
 	position: relative;
@@ -294,7 +293,7 @@ background-attachment:fixed;
 /*主页右侧部分*/
 #homeRight {
 	width: 250px;
-	height: 1500px;
+	height: 1188px;
 	background: #272933;
 	position: absolute;
 	right: 0px;
