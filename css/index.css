@@ -7,7 +7,7 @@ body {
 /*设置背景图*/
 body {
 	background: url(../images/bgimg.png);
-	width: 1050px;
+	width: 1050px; 
 	border: 0px solid yellow;
 	margin: 0 auto;
 	position: relative;
@@ -147,6 +147,28 @@ ul#navigation li a span{
 ul#navigation .home a{
     background-image: url(../images/home.png);
 }
+ul#navigation .travel a{
+    background-image: url(../images/travel.png);
+}
+ul#navigation .volunteering a{
+    background-image: url(../images/volunteering.png);
+}
+ul#navigation .calligraphy a{
+    background-image: url(../images/calligraphy.png);
+}
+ul#navigation .ITTech a{
+    background-image: url(../images/ITTech.png);
+}
+ul#navigation .aboutLife a{
+    background-image: url(../images/aboutLife.png);
+}
+ul#navigation .PosPsy a{
+    background-image: url(../images/PosPsy.png);
+}
+ul#navigation .aboutMe a{
+    background-image: url(../images/aboutMe.png);
+}
+
 
 /*回到顶部部分*/
 #goTopDiv {
