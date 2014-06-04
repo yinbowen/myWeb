@@ -147,6 +147,27 @@ ul#navigation li a span{
 ul#navigation .home a{
     background-image: url(../images/home.png);
 }
+ul#navigation .travel a{
+    background-image: url(../images/travel.png);
+}
+ul#navigation .volunteering a{
+    background-image: url(../images/volunteering.png);
+}
+ul#navigation .calligraphy a{
+    background-image: url(../images/calligraphy.png);
+}
+ul#navigation .ITTech a{
+    background-image: url(../images/ITTech.png);
+}
+ul#navigation .aboutLife a{
+    background-image: url(../images/aboutLife.png);
+}
+ul#navigation .PosPsy a{
+    background-image: url(../images/PosPsy.png);
+}
+ul#navigation .aboutMe a{
+    background-image: url(../images/aboutMe.png);
+}
 
 /*回到顶部部分*/
 #goTopDiv {
